@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <script src="../naftui.js"></script>
+    <link rel="stylesheet" href="../naftui.css" />
+    <link rel="stylesheet" href="../theme.css" />
+</head>
+<body>
+<script>
+  var a = new $.AppContainer();
+  var b = new $.Window({mode:"centered", w:"400px", h:"300px", title:"Book Order"});
+  var c = new $.Table();
+  c.definition = ["Title", "ISBN", "Price", {"name":"Quantity", "colType":"number"}];
+  c.data = [
+      {"Title":"Player's Handbook. 5th Edition", "ISBN":"9780786965601", "Price":40.20, "Quantity":3},
+      {"Title":"Dungeon Master's Manual", "ISBN":"9780786965625", "Price":40.20, "Quantity":1},
+      {"Title":"Monster's Manual", "ISBN":"9780786965618", "Price":40.20, "Quantity":1}
+    ];
+  a.addComponent(b);
+  b.addComponent(c);
+  
+</script>
+</body>
+</html>

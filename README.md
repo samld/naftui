@@ -1,2 +1,2 @@
-# naftui
-No Acronym for this UI
+# NAFTUI - No Acronym For This UI
+NAFTUI is a vanilla JS library made to simplify front-end programming through DOM manipulation. Reduce the need for HTML boiler by generating the components on the fly. It allows simple manipulation of JSON content through bi-directional databinding.

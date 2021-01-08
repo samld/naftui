@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <script src="../naftui.js"></script>
+    <link rel="stylesheet" href="../naftui.css" />
+    <link rel="stylesheet" href="../theme.css" />
+</head>
+<body>
+<script>
+  var a = new $.AppContainer();
+  var b = new $.Window({mode:"centered", w:"300px", h:"300px"});
+  var c = new $.ContentGrid();
+  var d = new $.GridRow();
+  var e = new $.GridColumn();
+  var f = new $.GridColumn();
+  var g = new $.Field({dataType:"text"});
+  var h = g.generateLabel("Hello, ");
+  a.addComponent(b);
+  b.addComponent(c);
+  c.addComponent(d);
+  d.addComponent(e);
+  d.addComponent(f);
+  e.addComponent(h);
+  f.addComponent(g);
+</script>
+</body>
+</html>

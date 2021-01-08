@@ -1,0 +1,46 @@
+html, body {height: 100%;}
+.app-container {width: 100%; heigth: 100%;}
+* { margin: 0; padding: 0;}
+.window {
+    position: absolute;
+}
+
+.window-bar {
+    display: block;
+    padding: 2px;
+    font-size: 1em;
+    cursor: default;
+}
+.window-bar .icons {
+    float: right;
+    display: inline-block;
+    font-size: 0.9em;
+}
+.window-bar .icons span {
+    float: none;
+    padding: 0 2px;
+    display: inline-block;
+}
+.window-bar .icons span:hover {
+    cursor: default;
+}
+
+.fullbody {
+    border: none;
+    borer-radius: none;
+}
+.fullbody .window-bar {
+    display: none;
+}
+.content-grid {
+    display: flex;
+}
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.grid-column {
+    flex-direction: column;
+}

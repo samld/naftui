@@ -1,0 +1,17 @@
+body {font: 0.9em Helvetica, Tahoma, Arial, sans-serif;}
+.window {
+    background: #cccccc;
+    border: 2px solid #aaaaaa;
+    border-radius: 4px;
+}
+.window-bar {
+    background: #999999;
+    height: 1.2em;
+}
+.window-bar .icons span:hover {
+    color: white;
+}
+.grid-column {
+    padding: 2px;
+}
+input {padding: 3px;}
