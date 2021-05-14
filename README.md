@@ -9,5 +9,4 @@ NAFTUI is a JS library made to simplify front-end programming through DOM manipu
 * Lightweight / doesn't require any particular environment
 
 ## Future
-* More examples
-* A proper documentation
+* This project is no longer supported.
